@@ -4,7 +4,7 @@
   "description": "example - advanced course css and scss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass -rw sass/ -o css/"
   },
   "author": "Ivan",
   "license": "ISC",
