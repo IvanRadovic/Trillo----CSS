@@ -10,6 +10,9 @@
 @import "components/gallery";
 @import "components/overview";
 @import "components/btn-inline";
+@import "components/paragraph";
+@import "components/list";
+@import "components/recommend";
 
 
 /* -- layout -- */
@@ -18,3 +21,6 @@
 @import "layout/content";
 @import "layout/sidebar";
 @import "layout/hotel-view";
+@import "layout/detail";
+@import "layout/description";
+@import "layout/user-reviews";
