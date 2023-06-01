@@ -6,4 +6,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media(max-width:$bp-samllest){
+        flex-wrap: wrap;
+        align-content: space-around;
+        height: 11rem;
+    }
 }

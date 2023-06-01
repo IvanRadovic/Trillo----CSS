@@ -16,6 +16,12 @@ Grey dark 3: #999
 
 */
 
+$bp-largest: 75em; //1200px - 1200/16
+$bp-large: 68.75em; //1100px - 1100/16
+$bp-medium: 56.25em; // 900px  - 900/16 default font size
+$bp-small: 37.5em; // 600px - 600/16
+$bp-samllest: 31.25em; // 500px - 500/16
+
 :root{
     --color-primary:#eb2f64;
     --color-primary-light:#FF3366;
@@ -48,6 +54,10 @@ Grey dark 3: #999
 html{
     box-sizing: border-box;
     font-size: 62.5%; // 1rem = 10px
+
+    @media(max-width:$bp-large){
+        font-size: 50%;
+    }
     
 }
 

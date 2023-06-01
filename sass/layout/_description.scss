@@ -4,4 +4,14 @@
     background-color: #fff;
     padding: 3rem;
     box-shadow: 0 2rem 4rem rgb(0,0,0, 0.06);
+
+    @media(max-width:$bp-medium){
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+
+    @media(max-width:$bp-small){
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
 }
